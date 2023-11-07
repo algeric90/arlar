@@ -3,7 +3,7 @@ import skfuzzy as fuzz
 from skfuzzy import control as ctrl
 import matplotlib.pyplot as plt
 
-
+print("Heloo World")
 #variabel input
 permintaan = ctrl.Antecedent(np.arange(0, 6001, 1),'permintaan')
 persediaan = ctrl.Antecedent(np.arange(0, 601, 1),'persediaan')
